@@ -9,5 +9,15 @@
         }
       ]
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/klines",
+      "destination": "https://api.binance.com/api/v3/klines"
+    },
+    {
+      "source": "/api/ticker",
+      "destination": "https://api.binance.com/api/v3/ticker/24hr"
+    }
   ]
 }
